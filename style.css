@@ -2,6 +2,7 @@
 
 *{
     font-family: 'Roboto';
+    font-weight: normal;
 }
 
 body{
@@ -12,7 +13,8 @@ body{
     background-color:#1F2937;
 }
 
-.logo {
+.logo,
+.navbar4 h1 {
     font-size: 24px;
     color: #F9FAF8;
     font-weight: bold;
@@ -96,7 +98,107 @@ a {
 
 .navbar2{
     background-color: white;
+    margin-bottom: 100px;
 }
+
+.information{
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937;
+    text-align:center;
+}
+
+.boxes{
+    display: flex;
+    justify-content: center;
+}
+
+.box{
+    border-radius: 8px;
+    margin-right: 50px;
+    width: 120px;
+    height: 120px;  
+    border: solid 3px #3882F6;
+}
+
+.navbar2 h2 {
+    font-size: 18px;
+    font-weight: normal;
+    color:rgb(124, 128, 130);
+    width: 200px;
+}
+
+.subtext{
+    display: flex;
+    justify-content: center;
+}
+
+.navbar3{
+    background-color:#E5E7EB;
+    height: 450px;
+}
+
+.quote{
+    padding: 130px 300px 0px 300px;
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+}
+
+.navbar3 h3{
+    color: #1F2937;
+    font-size: 23px;
+    font-weight: bold;
+    padding-left: 900px;
+}
+
+.actionBox{
+    height: 150px;
+    margin: 90px 200px 90px 200px;
+    background-color: #3882F6;
+    border-radius: 8px;
+}
+
+.actionElements{
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar4 h1{
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+
+.navbar4 h2 {
+    margin-top: 0px;
+    color: rgb(229, 231, 235);
+    font-size: 18px;
+}
+
+.navbar4 button{
+    margin-top: 58px;
+    background-color: #3882F6;
+    border: solid 2px white;
+    color: #F9FAF8;
+    width: 120px;
+    height: 35px;
+    border-radius: 8px;
+    font-size: 18px;
+}
+
+.navbar5{
+    background-color: #1F2937;
+    height: 100px;
+}
+
+.navbar5 h1 {
+    font-size: 18px;
+    color: white;
+    text-align:center;
+    padding-top: 30px;
+}
+
+
 
 
 
